@@ -1,13 +1,13 @@
-python 3.11.0
+Версия python 3.11.0
 
-В консоле git bash не в powershell!
+Через git bash:
+python -m venv .venv - вирутальное окружение  
+source .venv/Scripts/activate - активация виртуал окр
+pip install -r requirements.txt - установка зависимостей
+python manage.py migrate - миграции
+python manage.py createsuperuser - создание пользователя
+python manage.py runserver - запуск сервера
 
-python -m venv .venv
-source .venv/Scripts/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-
+Переход к странциам админки и Swagger:
 /swagger/
 /admin/
